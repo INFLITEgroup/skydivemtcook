@@ -1,0 +1,43 @@
+<html>
+    <body>
+    
+    
+    <img src="https://fh-sites.imgix.net/sites/2658/2020/11/26153250/sdmc.jpg"
+     alt="Skydive Mt.Cook Logo"
+     width="300"
+     height="70">
+    
+        <p>
+            Thank you for skydiving with Skydive Mt.Cook.<br><br>
+            Your feedback is important to us. <br><br> We constantly seek feedback to improve and evolve our service.<br>
+            <br>
+Please rate your recent experience with us below.            
+        </p>
+ 
+        
+        <script type="text/javascript" src="https://static.asknice.ly/dist/standalone/asknicely-in-app-conversation.js"></script>
+        <link href="https://static.asknice.ly/dist/standalone/asknicely-in-app-conversation.css" rel="stylesheet" type="text/css" charset="utf-8">
+        <script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+
+    askNicelyConversation({
+        config: {
+            force:          true, // Optional - only set this true for testing to the popup so it will ALWAYS appear
+            alignment:      "center", // Optional - "left", "center" or "right"
+            domain_key:     "inflite", // Required
+            template_name:   "Skydive Mt Cook", // Required - the survey template you wish to use
+            name:           "Levi Minnell", // Optional - but nice to have
+            email:          "digital@inflite.nz", // Required - if no email, this should be a unique id for this customer in an email-like format. But a real email address is more powerful for follow-ups
+            email_hash:     "d45a8610fe6d6d14d4cef726048210f66f66dffbedeba63de2ee5e071f82f8c0",  // Required - *security hash of this customers email - see below
+            created:        1606350282, // Highly desired - unix timestamp when this customer joined your service.
+        },
+        customData: {
+            a_custom_property: "Mt Cook Ski Planes & Helicopters", // Optional - Send extra data about this customer for reporting and leaderboards
+            
+        }
+    });
+});
+        </script>
+    </body>
+</html>
+    
